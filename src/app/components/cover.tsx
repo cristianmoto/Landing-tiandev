@@ -74,7 +74,7 @@ const cover = () => {
                 value: 0.5,
               },
               shape: {
-                type: "triangle",
+                type: "square",
               },
               size: {
                 value: { min: 1, max: 5 },
