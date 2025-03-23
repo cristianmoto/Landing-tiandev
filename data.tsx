@@ -1,24 +1,30 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Instagram } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Crop, Pencil, Computer, Book, Rocket} from 'lucide-react';
+import Behance from "./assets/Behance"
+import Insta from "./assets/Instagram"
+import Linkedin from "./assets/Linkedin"
+import TwitterX from "./assets/TwitterX"
+import { color, hover } from 'framer-motion';
+
 
 export const socialNetworks = [
     {
         id: 1,
-        logo: <Youtube size={30} strokeWidth={1} />,
+        logo: <Behance  strokeWidth={1} />,
         src: "#!",
     },
     {
         id: 2,
-        logo: <Linkedin size={30} strokeWidth={1} />,
+        logo: <Insta  strokeWidth={1} />,
         src: "#!",
     },
     {
         id: 3,
-        logo: <Twitter size={30} strokeWidth={1} />,
+        logo: <Linkedin strokeWidth={1} />,
         src: "#!",
     },
     {
         id: 4,
-        logo: <Instagram size={30} strokeWidth={1} />,
+        logo: <TwitterX  strokeWidth={1} />,
         src: "#!",
     },
    
@@ -50,12 +56,7 @@ export const itemsNavbar = [
         icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
         link: "/portfolio",
     },
-    {
-        id: 5,
-        title: "Home",
-        icon: <Speech size={25} color="#fff" strokeWidth={1} />,
-        link: "/testimonials",
-    },
+    
 ];
 
 export const dataAboutPage = [
