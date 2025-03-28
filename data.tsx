@@ -3,7 +3,6 @@ import Behance from "./assets/Behance"
 import Insta from "./assets/Instagram"
 import Linkedin from "./assets/Linkedin"
 import TwitterX from "./assets/TwitterX"
-import { color, hover } from 'framer-motion';
 
 
 export const socialNetworks = [
@@ -63,31 +62,38 @@ export const itemsNavbar = [
 export const dataAboutPage = [
     {
         id: 1,
-        title: "Frontend Developer",
+        title: "Web Developer",
         subtitle: "Dorian Graphic",
         description: "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
-        date: "marzo 2014 ",
+        date: "mar 2014 ",
     },
     {
         id: 2,
-        title: "Creador de Experiencias Digitales",
-        subtitle: "PixelCrafters",
-        description: "Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
-        date: "May 2021",
+        title: "Web Developer",
+        subtitle: "The Wine Shop",
+        description: "Desarrollo de la Web institucional y mantenimiento del catalogo de productos ",
+        date: "sep 2016",
     },
     {
         id: 3,
-        title: "Especialista en Desarrollo Frontend",
-        subtitle: "CodeForge Solutions",
-        description: "Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
-        date: "Ago 2019",
+        title: "Web Developer & Diseño Grafico",
+        subtitle: "Mundo Ciudadanias",
+        description: "Encargado de crear la web institucional de la marca, como el logo y la piezas graficas , internas y externas ",
+        date: "Mayo 2020",
     },
     {
         id: 4,
-        title: "Prácticas Grado",
-        subtitle: "WebWizards Inc.",
-        description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
-        date: "Mar 2018",
+        title: "Practica  en Santex Academy",
+        subtitle: "Santex Academy",
+        description: "Desarrollo de una web instucional para una municipalidad en el framework Angular.",
+        date: "Agos 2021",
+    },
+    {
+        id:5,
+        title: "Freelance",
+        subtitle: "Varios.",
+        description: "trabajos de diseño grafico , diseño multimedial, con la Suite de Adobe y  webs particulares, tanto en React como tambien en Js ",
+        date: "Ene 2025",
     },
 ]
 
@@ -101,25 +107,19 @@ export const dataCounter = [
     },
     {
         id: 1,
-        endCounter: 80,
+        endCounter: 10,
         text: "Clientes satisfechos",
-        lineRight: true,
-        lineRightMobile: false,
-    },
-    {
-        id: 2,
-        endCounter: 220,
-        text: "Proyectos finalizados",
         lineRight: true,
         lineRightMobile: true,
     },
     {
-        id: 3,
-        endCounter: 30,
-        text: "Premios ganadores",
+        id: 2,
+        endCounter: 12,
+        text: "Proyectos finalizados",
         lineRight: false,
         lineRightMobile: false,
     },
+   
 ];
 
 export const serviceData = [
