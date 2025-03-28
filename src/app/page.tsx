@@ -2,6 +2,7 @@ import Cover from "../app/components/cover"
 import TransitionsPage from "./components/TransitionsPage"
 import Introduccion from "./components/Introduccion";
 
+
 export default function Home() {
   return (
    <main>
@@ -10,6 +11,7 @@ export default function Home() {
     <div className="flex min-h [100vh] h-full bg-no-repeat bg-gradient-cover px-10">
       <Cover/>
       <Introduccion/>
+    
       
     </div>
    </main>
