@@ -100,7 +100,7 @@ export const dataAboutPage = [
 export const dataCounter = [
     {
         id: 0,
-        endCounter: 10,
+        endCounter: 5,
         text: "Años de experiencia",
         lineRight: true,
         lineRightMobile: true,
