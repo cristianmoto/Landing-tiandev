@@ -17,7 +17,7 @@ const cover = () => {
 
   return (
     init && (
-      <div className="w-[0px] h-[0px]">
+      <div className="w-[0px] h-[0px]  ">
         <Particles
           id="tsparticles"
           options={{
@@ -25,7 +25,7 @@ const cover = () => {
             interactivity: {
               events: {
                 onClick: {
-                  enable: true,
+                  enable:false,
                   mode: "push",
                 },
                 onHover: {

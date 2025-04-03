@@ -3,7 +3,13 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import NavBar from "./components/NavBar";
 import Header from "./components/Header";
+import Cover from "@/app/components/cover"
 
+
+import "./globals.css";
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,6 +37,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
       <NavBar/>
       <Header/>
+     
         {children}
       </body>
     </html>

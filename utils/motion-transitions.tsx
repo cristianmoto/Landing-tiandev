@@ -31,8 +31,8 @@ export const fadeIn = (position: string) =>{
             opacity:0,
             transition:{
                 type:"tween",
-            duration:1.4,
-            delay: 0.5,
+            duration:0.5,
+            delay: 0.1,
             ease: [0.25, 0.25, 0.25, 0.75]
             }
         }
