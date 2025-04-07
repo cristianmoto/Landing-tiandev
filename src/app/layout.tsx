@@ -4,13 +4,13 @@ import "./globals.css";
 
 import Header from "./components/Header";
 import Cover from "@/app/components/cover"
-
+import Navbar from "./components/NavBar"
 
 import "./globals.css";
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import Navbar from "./components/NavBar";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
