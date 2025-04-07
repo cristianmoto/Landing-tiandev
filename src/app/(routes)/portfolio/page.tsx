@@ -16,6 +16,7 @@ const PortfolioPage = () => {
 
     return (
         <Container>
+            <Cover/>
             <TransitionsPage/>
             <AvatarPortfolio />
             <CircleImage />

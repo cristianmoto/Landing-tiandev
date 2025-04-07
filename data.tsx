@@ -145,59 +145,18 @@ export const serviceData = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Web Pro",
+        title: "Mundo Cafe",
         image: "/image-1.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+       
+        urlDemo: "https://mundo-cafe-msqh.vercel.app/",
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
+        title: "Cafe Martinez",
         image: "/image-2.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 3,
-        title: "Estrategias Web",
-        image: "/image-3.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 4,
-        title: "Ideas Creativas",
-        image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 5,
-        title: "Webs Impactantes",
-        image: "/image-5.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 6,
-        title: "Web Dinámica",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 7,
-        title: "Dark Web ",
-        image: "/image-7.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 8,
-        title: "E-commerce web",
-        image: "/image-8.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+       
+        urlDemo: "https://cafeteriamartinez.vercel.app/",
+    
     }
 ];
 <h1>Me dedico al desarrollo web frontend y creo sitios y aplicaciones que no solo se ven bien, sino que también funcionan de maravilla. Trabajo con tecnologías como HTML, CSS y JavaScript para diseñar interfaces que sean fáciles de usar, se adapten a cualquier dispositivo y capturen la esencia de la marca de cada cliente. Mi objetivo es ayudar a mejorar su imagen online y destacar en el mundo digital.</h1>

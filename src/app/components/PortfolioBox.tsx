@@ -6,14 +6,14 @@ interface PortfolioBoxProps {
         id: number,
         title: string
         image: string
-        urlGithub: string
+      
         urlDemo: string
     }
 }
 
 const PortfolioBox = (props: PortfolioBoxProps) => {
     const { data } = props
-    const { id, title, image, urlDemo, urlGithub } = data
+    const { id, title, image, urlDemo} = data
 
     return (
         <div
@@ -28,13 +28,7 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
             />
 
             <div className="flex gap-5 mt-5">
-                <Link
-                    href={urlGithub}
-                    target="_blank"
-                    className="p-2 transition duration-150 rounded-lg bg-slate-500 hover:bg-slate-500/80"
-                >
-                    Github
-                </Link>
+              
 
                 <Link
                     href={urlDemo}
