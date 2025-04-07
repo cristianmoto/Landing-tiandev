@@ -3,9 +3,8 @@ import Image from "next/image"
 
 const CircleImage = () => {
   return (
-   <div className=" bottom-0 right-0 hidden md:inline-block md:absolute">
-    <Image src="/vaso.png" width={300} height={300} alt="Circle" className="w-full h-full"/>
-
+   <div className="bottom-0 right-0 hidden md:inline-block md:absolute">
+    <Image src="/vaso.png"width="250" height="250" className="w-full h-full " alt="Particles " />
    </div>
   )
 }

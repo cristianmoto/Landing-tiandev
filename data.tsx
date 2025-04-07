@@ -64,7 +64,7 @@ export const dataAboutPage = [
         id: 1,
         title: "Web Developer",
         subtitle: "Dorian Graphic",
-        description: "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
+        description: "Colabore con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
         date: "mar 2014 ",
     },
     {
@@ -200,3 +200,4 @@ export const dataPortfolio = [
         urlDemo: "#!",
     }
 ];
+<h1>Me dedico al desarrollo web frontend y creo sitios y aplicaciones que no solo se ven bien, sino que también funcionan de maravilla. Trabajo con tecnologías como HTML, CSS y JavaScript para diseñar interfaces que sean fáciles de usar, se adapten a cualquier dispositivo y capturen la esencia de la marca de cada cliente. Mi objetivo es ayudar a mejorar su imagen online y destacar en el mundo digital.</h1>

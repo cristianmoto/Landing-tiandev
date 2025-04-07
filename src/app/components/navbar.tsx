@@ -14,7 +14,7 @@ const NavBar = () => {
                              <div key={item.id}
                              className={
                                 `px-3 py-2 transition duration-150 rounded-full cursor-pointer
-                                 hover:bg-slate-400
+                                 hover:bg-secondary
                                   ${router === item.link && 'bg-slate-400'}`}
                              >
                                <Link href={item.link}>{item.icon}</Link>
