@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import Transitions from './Transitions'
 
-const NavBar = () => {
+const Navbar = () => {
     const router = usePathname()
   return (
     <Transitions  position='right' className='fixed z-40 flex flex-col items-center justify-center w-full mt-auto h-max bottom-10'>
@@ -26,4 +26,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
+export default Navbar
