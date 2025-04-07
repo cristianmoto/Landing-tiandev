@@ -8,7 +8,7 @@ import 'swiper/css/scrollbar';
 
 
 import Header from "./components/Header";
-import Navbar from "./components/NavBar";
+import Navbar from "./components/Navbar";
 
 const urbanist = Urbanist({ subsets: ["latin"] });
 
