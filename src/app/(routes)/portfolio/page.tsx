@@ -1,6 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
-
 import { dataPortfolio } from '../../../../data';
 
 import AvatarPortfolio from "../../components/AvatarPortfolio";
@@ -8,7 +5,7 @@ import Container from "../../components/Container";
 import PortfolioBox from "../../components/PortfolioBox";
 import TransitionsPage from "@/app/components/TransitionsPage"
 import CircleImage from "../../components/Circle-image"
-import Cover from "@/app/components/cover"
+import Cover from "@/app/components/Cover"
 
 
 

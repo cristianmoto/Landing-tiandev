@@ -1,6 +1,6 @@
 import TransitionsPage from "@/app/components/TransitionsPage"
 import CircleImage from "../../components/Circle-image"
-import Cover from "@/app/components/cover"
+import Cover from "@/app/components/Cover"
 
 import AvatarServices from "@/app/components/AvatarServices"
 

@@ -1,6 +1,6 @@
 import Container from "@/app/components/Container"
 import TransitionsPage from "@/app/components/TransitionsPage"
-import Cover from "../../components/cover"
+import Cover from "../../components/Cover"
 import Avatar from "@/app/components/Avatar"
 import Counter from "@/app/components/Counter"
 import TimeLine from "@/app/components/Time-line"

@@ -1,4 +1,4 @@
-import Cover from "../app/components/cover"
+import Cover from "./components/Cover"
 import TransitionsPage from "./components/TransitionsPage"
 import Introduccion from "./components/Introduccion";
 

@@ -1,11 +1,11 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-import type { Container, Engine } from "@tsparticles/engine";
+
 import { loadSlim } from "@tsparticles/slim";
 
-const cover = () => {
+const Cover = () => {
   const [init, setInit] = useState(false);
   useEffect(() => {
     initParticlesEngine(async (engine) => {
@@ -88,4 +88,4 @@ const cover = () => {
   );
 };
 
-export default cover;
+export default Cover;
