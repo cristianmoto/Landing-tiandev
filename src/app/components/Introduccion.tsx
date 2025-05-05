@@ -17,8 +17,6 @@ const Introduccion = () => {
                             1000,
                             "puedes optimizarlo",
                             1000,
-                            "puedes implementarlo",
-                            1000,
                             "puedes desarrollarlo",
                             1000,
                         ]}
